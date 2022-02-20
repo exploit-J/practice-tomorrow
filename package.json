@@ -1,0 +1,25 @@
+{
+  "name": "practice-tomorrow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-sass" : "node-sass",
+    "sass" :"node-sass -wr styles/main.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exploit-J/practice-tomorrow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exploit-J/practice-tomorrow/issues"
+  },
+  "homepage": "https://github.com/exploit-J/practice-tomorrow#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
