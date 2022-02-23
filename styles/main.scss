@@ -5,6 +5,7 @@
 @import './base/fonts';
 @import './base/nomalize';
 @import './base/reset';
+@import './base/globals';
 
 @import './mixins/text-style';
 @import './mixins/responsive';
@@ -18,6 +19,7 @@
 @import './modules/buttons';
 @import './modules/forms';
 @import './modules/pagination';
+@import './modules/icons';
 
 
 @import './layouts/girds';
