@@ -1,10 +1,6 @@
 @import './constants/colors'; 
-// 변수 관련된 내용은 최상위 추천
-
+@import './constants/typography';
 @import './base/fonts';
 @import './base/nomalize';
 @import './base/reset';
-
-*{
-  font-family: 'Noto Sans KR', sans-serif;
-}
+@import './layouts/girds'
