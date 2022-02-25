@@ -50,8 +50,8 @@
     }
     
     .avatar-24{
-      flex-grow: 0;
-      flex-shrink: 0;
+      flex-grow: 0; // 공간 남아도 커지지 말아라
+      flex-shrink: 0; // 공간 남아도 작아지지말아라
       margin-right: 8px;
     }
 
