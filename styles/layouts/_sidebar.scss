@@ -1,6 +1,13 @@
 .sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: $sidebar-level;
   width: 240px;
+  height: 100vh;
   padding: 32px 20px;
+  overflow-y: auto; // 넘치는 축 스크롤 생성
+  overscroll-behavior: contain;
   background-color: $white;
 
   &-header{
@@ -81,5 +88,9 @@
         }
       }
     }
+  }
+
+  &::-webkit-scrollbar{
+    display: none;   // 사이드바 스크롤바 숨기기
   }
 }
