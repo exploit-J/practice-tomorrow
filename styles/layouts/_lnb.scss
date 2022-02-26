@@ -1,5 +1,6 @@
 .lnb{
   overflow-x: auto;  // 터지는부분 스크롤처리
+  border-bottom: 1px solid $border;
 
   &::-webkit-scrollbar{   // 스크롤 바 변경 속성
     display: none;
@@ -10,13 +11,16 @@
     position: relative;
     left: -8px;
     white-space: nowrap;  // 요소의 공백처리 속성
+    height: 40px;
+
+    
   }
   &-item {
 
     &.is-active{
       a{
         color: $blue;
-        border-bottom: 2px solid $blue;
+        border-bottom-color: $blue;
       }
     }  
 
@@ -26,6 +30,7 @@
       height: 40px;
       padding: 0 8px;
       font-weight: 700;
+      border-bottom: 2px solid transparent;
     }
 
     .ic-new{
