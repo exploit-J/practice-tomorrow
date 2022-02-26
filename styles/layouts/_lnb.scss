@@ -1,6 +1,7 @@
 .lnb{
   @include no-scrollbar;
   overflow-x: auto;  // 터지는부분 스크롤처리
+  background-color: $white;
   
   &-list{
     @include inline-flexbox(start);
