@@ -1,15 +1,15 @@
 .lnb{
   @include no-scrollbar;
   overflow-x: auto;  // 터지는부분 스크롤처리
-  border-bottom: 1px solid $border;
-
+  
   &-list{
     @include inline-flexbox(start);
-    position: relative;
-    left: -8px;
-    white-space: nowrap;  // 요소의 공백처리 속성
     height: 40px;
-
+    padding: 0 7px;
+    margin-left: -15px;
+    white-space: nowrap;  // 요소의 공백처리 속성
+    border-bottom: 1px solid $border;
+    
     
   }
   &-item {
@@ -28,10 +28,34 @@
       padding: 0 8px;
       font-weight: 700;
       border-bottom: 2px solid transparent;
+
+      &:hover{
+        color: $blue;
+      }
     }
 
     .ic-new{
     color: $red;
+    }
+  }
+
+  @include responsive(T){
+    height: 50px;
+    overflow-x: visible;
+    border-bottom: 1px solid $border;
+
+    &-list{
+      height: auto;
+      padding: 0;
+      margin-left: 0;
+      border-bottom: none;
+    }  
+
+    &-item{
+      a{
+        @include text-style(14);
+        height: 50px;
+      }
     }
   }
 }
