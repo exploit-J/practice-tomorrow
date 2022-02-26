@@ -1,10 +1,7 @@
 .lnb{
+  @include no-scrollbar;
   overflow-x: auto;  // 터지는부분 스크롤처리
   border-bottom: 1px solid $border;
-
-  &::-webkit-scrollbar{   // 스크롤 바 변경 속성
-    display: none;
-  }
 
   &-list{
     @include inline-flexbox(start);
