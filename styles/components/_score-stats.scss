@@ -35,10 +35,12 @@
         border-radius: (5px / 2);
         
         .active-bar{
-          width: 30px;
+          width: 50%;
           height: 5px;
           background-color: $blue;
-          border-radius: (5px / 2);          
+          border-radius: (5px / 2);      
+          animation-name: slide-active-bar; // animation 이름
+          animation-duration: 1s; // 지속시간
         }
       }
       
@@ -63,4 +65,16 @@
       }
     }
   }
+}
+
+
+@keyframes slide-active-bar{
+  0%{
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100%{
+    transform: translate3d(0, 0, 0);
+  }
+
 }
