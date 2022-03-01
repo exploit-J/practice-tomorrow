@@ -60,7 +60,7 @@
     .username{
       flex-grow: 1;
       overflow: hidden;
-      text-overflow: ellipsis;
+      text-overflow: ellipsis; // 텍스트 초과시 ... 처리 (1줄 표현 시 사용, 2줄이상은 line-clamp사용)
       white-space: nowrap;  //inline속성 줄바꿈 안시킴
     }
   }
