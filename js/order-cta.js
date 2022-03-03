@@ -19,4 +19,4 @@ function closeOpenModal(){
   orderModalOverlay.classList.remove('is-active')
 }
 
-orderModalOverlay.addEventListener('click', )
+orderModalOverlay.addEventListener('click', closeOpenModal)
