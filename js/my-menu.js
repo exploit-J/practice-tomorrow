@@ -9,7 +9,6 @@ function toggleMyMenu(){
 }
 
 function closeMyMenuOnClickingOutside(e){
-  console.log('마이메뉴클릭됨')
   if (!myMenu.contains(e.target)){
     myMenu.classList.remove('is-active')
     window.removeEventListener('click', closeMyMenuOnClickingOutside)
