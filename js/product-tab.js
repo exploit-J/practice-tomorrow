@@ -19,7 +19,7 @@ function toggleActiveTab(){
 
     setTimeout(() => {
       disabledUpdating = false
-    }, timeout);
+    }, 1000);
   }
 }
 
@@ -101,6 +101,7 @@ function updateActiveTabOnScroll(){
   }
 
   const bodyHeight = document.body.offsetHeight + (window.innerWidth < 1200 ? 56 : 0)
+  
   if(window.scrollY + window.innerHeight == bodyHeight){
     newActiveTab = productTabButtonList[4]
   }
