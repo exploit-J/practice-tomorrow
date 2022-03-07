@@ -8,7 +8,7 @@
     autoplayHoverPause: true,
     autoplayButtonOutput: false,
     mouseDrag: true,
-    preventScrollOnTouch: true
+    preventScrollOnTouch: 'auto'
   });
 
   const userGalleryMobie = tns({
