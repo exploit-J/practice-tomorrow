@@ -35,5 +35,5 @@
     loop: false,
     arrowKeys: true,
     mouseDrag: true,
-    preventScrollOnTouch: true,
+    preventScrollOnTouch: 'force',
   });
