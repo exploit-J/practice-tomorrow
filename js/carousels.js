@@ -8,7 +8,7 @@
     autoplayHoverPause: true,
     autoplayButtonOutput: false,
     mouseDrag: true,
-    preventScrollOnTouch: 'force'
+    preventScrollOnTouch: 'force',
   });
 
   const userGalleryMobie = tns({
@@ -21,7 +21,7 @@
     loop: false,
     arrowKeys: true,
     mouseDrag: true,
-    preventScrollOnTouch: true,
+    preventScrollOnTouch: 'force',
   });
   
   const userGalleryDesktop = tns({
@@ -35,5 +35,5 @@
     loop: false,
     arrowKeys: true,
     mouseDrag: true,
-    preventScrollOnTouch: true,
+    preventScrollOnTouch: 'force',
   });
