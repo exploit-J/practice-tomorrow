@@ -21,7 +21,7 @@
     loop: false,
     arrowKeys: true,
     mouseDrag: true,
-    preventScrollOnTouch: 'force',
+    preventScrollOnTouch: true,
   });
   
   const userGalleryDesktop = tns({
@@ -35,5 +35,5 @@
     loop: false,
     arrowKeys: true,
     mouseDrag: true,
-    preventScrollOnTouch: 'force',
+    preventScrollOnTouch: true,
   });
