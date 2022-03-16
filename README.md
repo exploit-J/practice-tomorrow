@@ -1,5 +1,7 @@
 # 오늘의 집 클론코딩 연습입니다.
 
+https://exploit-j.github.io/practice-tomorrow/
+
 ### 1. GNB
 
 * 로그일을 하지 않은 경우
